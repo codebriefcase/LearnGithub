@@ -34,3 +34,4 @@ git push origin your-branch-name -f
 4. Upstream Downstream
 5. Moving Head
 6. Discarding/Reverting Commits/PR
+7. Ahead and Behind
