@@ -1,4 +1,4 @@
-#Squash Commits -
+# Squash Commits -
 
 git rebase -i HEAD~4  //Will squash last 4 commits
 
@@ -10,13 +10,13 @@ git rebase -i HEAD~4  //Will squash last 4 commits
 git push origin branch-name --force
 
 
-#Rename Commits - 
+# Rename Commits - 
 git commit --amend -m "Your new message here"
 
 If you have other commits to reword
 
 git rebase -i HEAD^
-# then replace 'pick' with 'r' or 'reword' and save, editor should pop up again to edit the msg
+then replace 'pick' with 'r' or 'reword' and save, editor should pop up again to edit the msg
 
 Because this commit has a new SHA1 due to the change of the contents, you will need to force push the new reference. The force is needed because it tells git to forget about the previous commit. It's a safety measure.
 
