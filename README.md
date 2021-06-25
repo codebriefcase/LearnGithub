@@ -22,6 +22,8 @@ Because this commit has a new SHA1 due to the change of the contents, you will n
 
 git push origin your-branch-name -f
 
+# Reverting to all changes on remote repo (Will discard all local commits and changes)
+git revert --hard orgin/branch-name
 
 
 
