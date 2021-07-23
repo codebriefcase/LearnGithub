@@ -31,6 +31,9 @@ git push origin your-branch-name -f
 # Reverting to all changes on remote repo (Will discard all local commits and changes)
 git revert --hard orgin/branch-name
 
+# Cherrypick
+git cherry-pick <commit-hash>
+then push the changes to the remote. We can also use multiple hashes separated by space to cherrypick multiple commits
 
 
 
