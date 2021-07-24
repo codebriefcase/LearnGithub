@@ -59,8 +59,8 @@ The packfiles is under .git/objects/pack
 You can see it after execute "git gc" command by yourself.
 
 # ToDo
-1. ~~Snapshots in Git
-2. ~~Rebase
+~~1. Snapshots in Git
+~~2. Rebase
 3. Sync Branches
 4. Upstream Downstream
 5. Moving Head
