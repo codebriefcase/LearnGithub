@@ -40,7 +40,7 @@ git checkout feature-branch
 git rebase master
 
 It will rewrite all commits made in feature branch after rebasing it to master, resulting in a linear branch history.
-
+Should be only applied on Feature branches which are not public (used by any other), as the history will be re-written and it may cause issues.
 
 
 # ToDo
