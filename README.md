@@ -35,6 +35,11 @@ git revert --hard orgin/branch-name
 git cherry-pick <commit-hash>
 then push the changes to the remote. We can also use multiple hashes separated by space to cherrypick multiple commits
 
+# Rebase
+git checkout feature-branch
+git rebase master
+
+It will rewrite all commits made in feature branch after rebasing it to master, resulting in a linear branch history.
 
 
 
