@@ -38,7 +38,7 @@ then push the changes to the remote. We can also use multiple hashes separated b
 
 
 
-#TODO
+# ToDo
 1. Snapshots in Git
 2. Rebase
 3. Sync Branches
@@ -46,3 +46,6 @@ then push the changes to the remote. We can also use multiple hashes separated b
 5. Moving Head
 6. Discarding/Reverting Commits/PR
 7. Ahead and Behind
+8. Git Log
+9. Git Bisect
+10. gitk
