@@ -1,8 +1,14 @@
 # Adding a local repo to origin
-check origin info : git origin -v
+check origin info : git remote -v
 add new origin : git remote add origin https://xyz.github.com
 set upstream and push : git push --set-upstream origin master
 We created some commits in our branch, and now want to set the tracking branch to be master : git branch -u origin/master
+
+
+# Changing/Setting username and email
+Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+Set your email address: git config --global user.email "MY_NAME@example.com"
+
 
 # Squash Commits -
 
