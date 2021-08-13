@@ -9,6 +9,10 @@ We created some commits in our branch, and now want to set the tracking branch t
 Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
 Set your email address: git config --global user.email "MY_NAME@example.com"
 
+# Change Origin of an existing local repo
+git remote set-url <remote_name> <remote_url>
+ex. : git remote set-url origin https://git-repo/new-repository.git
+
 
 # Squash Commits -
 
