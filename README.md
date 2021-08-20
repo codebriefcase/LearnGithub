@@ -13,6 +13,8 @@ Set your email address: git config --global user.email "MY_NAME@example.com"
 git remote set-url <remote_name> <remote_url>
 ex. : git remote set-url origin https://git-repo/new-repository.git
 
+# Make a local branch point to a remote branch
+git branch --set-upstream-to=origin/remote-branch local-branch
 
 # Squash Commits -
 
