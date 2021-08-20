@@ -70,6 +70,9 @@ Git finds a balanced way between the performance and disk space cost.
 The packfiles is under .git/objects/pack
 You can see it after execute "git gc" command by yourself.
 
+# Git Commit Message Standards -
+  http://karma-runner.github.io/6.3/dev/git-commit-msg.html
+  
 # ToDo
 1. ~~Snapshots in Git~~
 2. ~~Rebase~~
