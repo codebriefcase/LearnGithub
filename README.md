@@ -84,3 +84,4 @@ You can see it after execute "git gc" command by yourself.
 8. Git Log
 9. Git Bisect
 10. gitk
+11. Stashing
