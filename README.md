@@ -73,6 +73,26 @@ You can see it after execute "git gc" command by yourself.
 # Git Commit Message Standards -
   http://karma-runner.github.io/6.3/dev/git-commit-msg.html
   
+  1. Specify the type of commit:
+  feat: The new feature you're adding to a particular application
+  fix: A bug fix
+  style: Feature and updates related to styling
+  refactor: Refactoring a specific section of the codebase
+  test: Everything related to testing
+  docs: Everything related to documentation
+  chore: Regular code maintenance.[ You can also use emojis to represent commit types]
+  
+  2. Separate the subject from the body with a blank line
+  3. Your commit message should not contain any whitespace errors
+  4. Remove unnecessary punctuation marks
+  5. Do not end the subject line with a period
+  6. Capitalize the subject line and each paragraph
+  7. Use the imperative mood in the subject line
+  8. Use the body to explain what changes you have made and why you made them.
+  9. Do not assume the reviewer understands what the original problem was, ensure you add it.
+  10. Do not think your code is self-explanatory
+  
+  
 # ToDo
 1. ~~Snapshots in Git~~
 2. ~~Rebase~~
