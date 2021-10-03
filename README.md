@@ -91,6 +91,8 @@ You can see it after execute "git gc" command by yourself.
   8. Use the body to explain what changes you have made and why you made them.
   9. Do not assume the reviewer understands what the original problem was, ensure you add it.
   10. Do not think your code is self-explanatory
+  ![image](https://user-images.githubusercontent.com/61384771/135752057-06cec24a-001b-4a3d-8b12-547465d677bc.png)
+
   
   
 # ToDo
