@@ -1,17 +1,30 @@
 ![App Ideas Image](./github-social.png)
 
 ## Contents
-[Adding a local repo to origin](#adding-a-local-repo-to-origin)
-[Changing/Setting username and email](#changing/setting-username-and-email)
-[Change Origin of an existing local repo](#change-origin-of-an-existing-local-repo)
-[Make a local branch point to a remote branch](#make-a-local-branch-point-to-a-remote-branch)
-[Squash Commits](#squash-commits)
-[Rename Commits](#rename-commits)
-[Reverting to all changes on remote repo](#reverting-to-all-changes-on-remote-repo)
-[Cherrypick](#cherrypick)
-[Rebase](#Rebase)
-[Snapshots](#Snapshots)
-[Git Commit Message Standards](#git-commit-message-standards)
+- [Adding a local repo to origin](#adding-a-local-repo-to-origin)
+
+- [Changing/Setting username and email](#changingsetting-username-and-email)
+
+- [Change Origin of an existing local repo](#change-origin-of-an-existing-local-repo)
+
+- [Make a local branch point to a remote branch](#make-a-local-branch-point-to-a-remote-branch)
+
+- [Squash Commits](#squash-commits)
+
+- [Rename Commits](#rename-commits)
+
+- [Reverting to all changes on remote repo](#reverting-to-all-changes-on-remote-repo)
+
+- [Cherrypick](#cherrypick)
+
+- [Rebase](#rebase)
+
+- [Snapshots](#snapshots)
+
+- [Git Commit Message Standards](#git-commit-message-standards)
+
+  
+---
 
 ### Adding a local repo to origin
 check origin info : git origin -v
@@ -30,7 +43,7 @@ ex. : git remote set-url origin https://git-repo/new-repository.git
 ### Make a local branch point to a remote branch
 git branch --set-upstream-to=origin/remote-branch local-branch
 
-### Squash Commits -
+### Squash Commits
 git rebase -i HEAD~4  //Will squash last 4 commits
 
 1. In the interactive shell, change all commits except the first one, from pick to squash
@@ -40,7 +53,7 @@ git rebase -i HEAD~4  //Will squash last 4 commits
 
 git push origin branch-name --force
 
-### Rename Commits - 
+### Rename Commits
 git commit --amend -m "Your new message here"
 
 If you have other commits to reword
@@ -59,7 +72,7 @@ git revert --hard orgin/branch-name
 ### Cherrypick
 git cherry-pick <commit-hash>
 then push the changes to the remote. We can also use multiple hashes separated by space to cherrypick multiple commits
-
+  
 ### Rebase
 git checkout feature-branch
 git rebase master
@@ -83,7 +96,7 @@ Git finds a balanced way between the performance and disk space cost.
 The packfiles is under .git/objects/pack
 You can see it after execute "git gc" command by yourself.
 
-### Git Commit Message Standards -
+### Git Commit Message Standards
   http://karma-runner.github.io/6.3/dev/git-commit-msg.html
   
   1. Specify the type of commit:
