@@ -1,5 +1,0 @@
-Use the command below to create aliases, replacing <alias> with the name of the alias and <command> with the command to be aliased:
-
-git config --global alias.<alias> <command>
-
-Additionally, we can use edit the configuration file and add many aliases all at once.
