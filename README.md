@@ -1,5 +1,6 @@
 ![App Ideas Image](./github-social.png)
 some changes here
+some more changes
 ## Contents
 - [Adding a local repo to origin](#adding-a-local-repo-to-origin)
 
