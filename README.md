@@ -119,5 +119,21 @@ You can see it after execute "git gc" command by yourself.
   10. Do not think your code is self-explanatory
 
   ![image](https://user-images.githubusercontent.com/61384771/135752057-06cec24a-001b-4a3d-8b12-547465d677bc.png)
+  
+  
+  ### Git Stash Commands
+ 
+  -List the stashes:
+  git stash list
+  
+  - Show the files in the most recent stash:
+  git stash show
+  
+  - Show the changes of the most recent stash:
+  git stash show -p
+  (Note: the -p option generates a patch, as per git-diff documentation.)
+  
+  - Show the changes of the named stash:
+  git stash show -p stash@{1}
 
   
